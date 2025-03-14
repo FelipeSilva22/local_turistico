@@ -52,10 +52,6 @@ h3 {
   border: solid 1px green;
 }
 
-/* header {
-  margin-bottom: 40px;
-} */
-
 main header+section, section + section, section + div, div + section {
   margin-top: 40px;
 }
@@ -67,16 +63,38 @@ main header+section, section + section, section + div, div + section {
   text-transform: uppercase;
 }
 
+.headline + h1 {
+  margin-top: 8px;
+}
+
 #intro img {
   border-radius: 28px;
   width: 100%;
+  margin-bottom: 24px;
+}
+
+#intro figcaption {
+  font-style: italic;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 5px;
+}
+
+.headline + h2 {
+  margin-top: 2px;
 }
 
 #content img {
   border-radius: 28px;
 }
 
+.divisor {
+  border-top: solid 1px var(--border-primary);
+}
 
+.divisor+#title-list {
+  margin-top: 40px;
+}
 
 footer {
   margin-bottom: 48px;
