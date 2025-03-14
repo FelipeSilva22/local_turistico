@@ -43,6 +43,7 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 700;
+  padding-left: 40px;
 }
 
 #container { 
@@ -70,6 +71,7 @@ main header+section, section + section, section + div, div + section {
 #intro img {
   border-radius: 28px;
   width: 100%;
+  max-height: 660px;
   margin-bottom: 24px;
 }
 
@@ -86,6 +88,8 @@ main header+section, section + section, section + div, div + section {
 
 #content img {
   border-radius: 28px;
+  width: 100%;
+  max-height: 350px;
 }
 
 .divisor {
@@ -94,6 +98,54 @@ main header+section, section + section, section + div, div + section {
 
 .divisor+#title-list {
   margin-top: 40px;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+#description {
+  margin-top: 8px;
+}
+
+#content div+ol {
+  margin-top: 64px;
+}
+
+ol img+h3 {
+  margin-top: 20px;
+}
+
+ol ul {
+  list-style-type: disc;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+.accent-blue {
+  font-weight: 700;
+  color: var(--accent-blue);
+}
+
+ul li::marker {
+  color: var(--text-secondary);
+}
+
+.accent-purple {
+  font-weight: 700;
+  color: var(--accent-purple);
+}
+
+.accent-pink {
+  font-weight: 700;
+  color: var(--accent-pink);
+}
+
+.accent-orange {
+  font-weight: 700;
+  color: var(--accent-orange);
 }
 
 footer {
